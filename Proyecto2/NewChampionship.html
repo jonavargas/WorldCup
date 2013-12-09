@@ -8,7 +8,9 @@
 	<title>2014 WORLD CHAMPIONSHIPS SIMULATOR</title>
 	<link rel="stylesheet" type="text/css" href="css/index.css">
 	<link href="img/favicon.ico" type="image/x-ico" rel="shortcut icon"/>
-	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/lib/jquery-1.10.2.js"></script>
+    <script type="text/javascript" src="js/behavior/index.js"></script>
+    <script type="text/javascript"> scr="js/lib/bootstrap.js"</script>
 	<img class="logo" src="img/logo.jpg" >
 
 </head>
@@ -118,7 +120,7 @@
 					</div>
 
 					<p>
-						<button type="button" class="btn btn-warning btn-lg btnConfirm">Confirm</button>
+						<button type="button" id="send" class="btn btn-warning btn-lg btnConfirm">Confirm</button>
 					</p>
 					<form name="frmSO">
 				     <label class="lblGroupA"> Group A<input type="radio" name="rg" value="GroupA"></label><textarea class="GroupA" id="ga" name="data" cols="60" rows="3" class="form-control" placeholder=" Group A"></textarea> 
