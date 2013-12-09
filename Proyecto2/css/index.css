@@ -220,10 +220,16 @@ nav a:hover{
     margin-top:10%;
     width: 20%;
 }
+.GroupB{
+    display: inline-block;
+    margin-left:-14%;
+    margin-top:10%;
+    width: 20%;
+}
 .lblGroupA{
     display: inline-block;
     margin-left: 8%;
-    margin-top: 6%;
+    margin-top: 8%;
 }
 .lblName{
     margin-left: 35%;
