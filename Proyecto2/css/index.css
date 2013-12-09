@@ -125,9 +125,10 @@ nav a:hover{
  }
 .divCheckbox{ 
     float: left;
+    margin-top: 2%;
     padding-right: 1%;
     padding-left: 4%;
-    margin-top: 2%;
+    
     width: 22%;
 } 
 .divCheckbox1{ 
@@ -188,7 +189,7 @@ nav a:hover{
     background: url('../img/cesped.jpg');
     border: 0.1em;
     margin-top: 3%;
-    color: #000000;
+    color: #F4FDF4;
     width: 90%;
     margin-left: 5%;
     text-align: center;
@@ -206,13 +207,23 @@ nav a:hover{
     margin-left: 47%;
     width: 20%;    
 }
-
 .Groups{
     background: url('../img/cesped.jpg');
     margin-left: 5%;
     width: 90%;
     color:white;
     text-align: center;
+}
+.GroupA{
+    display: inline-block;
+    margin-left:-14%;
+    margin-top:10%;
+    width: 20%;
+}
+.lblGroupA{
+    display: inline-block;
+    margin-left: 8%;
+    margin-top: 6%;
 }
 .lblName{
     margin-left: 35%;
@@ -233,8 +244,8 @@ nav a:hover{
     border-radius: 10%;
 }
 .name{
-    margin-top: 2%;
-    margin-left: 46%;
+    margin-top:5%;
+    margin-left: 20%;
     font-size: 1em;
 }
 .nava{
