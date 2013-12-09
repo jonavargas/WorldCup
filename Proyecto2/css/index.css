@@ -77,13 +77,14 @@ body{
     font-size: 1em;
     font-family: cursive;
  }
- span{
+span{
     color:white;
     font-size: 1.4em;
 }
 span img{
-    width: 12%;
-    height: 12%;
+    width: 10%;
+    height: 10%;
+
 }
 nav a:hover{
     background: #9FFC23;
@@ -104,6 +105,11 @@ nav a:hover{
     list-style: none;
     text-decoration: none;
 }
+.Continente{
+   color: #F4E73E;
+   font-family: cursive;
+  ;   
+}
 .btn{
     color: #0000A0;
     font-size: 1.5em;
@@ -117,9 +123,54 @@ nav a:hover{
     margin-left: 35%;
     box-shadow: 4px 4px 7px #349EED;
  }
- .divflags{
-    margin-left: 10%;
- }
+.divCheckbox{ 
+    float: left;
+    padding-right: 1%;
+    padding-left: 4%;
+    margin-top: 2%;
+    width: 20%;
+} 
+.divCheckbox1{ 
+    float: left;
+    padding-right: 1%;
+    padding-left: 1%;
+    margin-top: 2%;
+    margin-left:8%;
+    width: 20%;
+} 
+.divCheckbox2{ 
+    float: left;
+    padding-right: 1%;
+    padding-left: 1%;
+    margin-top: 2%;
+    margin-left: 5%;
+    width: 20%;
+}
+.divCheckbox3{ 
+    float: left;
+    padding-right: 1%;
+    padding-left: 1%;
+    margin-top: -5%;
+    margin-left: 4%;
+    width: 50%;
+} 
+.divCheckbox4{ 
+    float: left;
+    padding-right: 1%;
+    padding-left: 1%;
+    margin-top: -29%;
+    margin-left: 80%;
+    width: 20%;
+}  
+.divCheckbox5{ 
+    float: left;
+    padding-right: 1%;
+    padding-left: 1%;
+    margin-top: -49%;
+    margin-left: 40%;
+    width: 20%;    
+} 
+
  .divReglas{
     background: url('../img/cesped.jpg');
     border: 0.1em;
@@ -268,7 +319,6 @@ nav a:hover{
     float: left;
     margin-left: 15%;
 }
-
 .social{
     display: inline-block;
     margin-top: -15%;
