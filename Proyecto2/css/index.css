@@ -77,6 +77,11 @@ body{
     font-size: 1em;
     font-family: cursive;
  }
+ fieldset{
+    border: solid 1em;
+    border-color: red;
+
+ }
 span{
     color:white;
     font-size: 1.4em;
@@ -110,6 +115,14 @@ nav a:hover{
    font-family: cursive;
    font-size: 1.8em; 
 }
+.Contain{
+    background: url('../img/estadium.jpg');
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 96%;
+    margin-left: 2%;
+    margin-top: 2%;
+}
 .btn{
     color: #0000A0;
     font-size: 1.5em;
@@ -117,7 +130,7 @@ nav a:hover{
  .btnConfirm{
     position: relative;
     margin-left: 73%;
-    margin-top: -10%;
+    margin-top: 8%;
 }
 .btnCreate{
     background: #FFFF00;
@@ -143,15 +156,15 @@ nav a:hover{
     float: left;
     padding-right: 1%;
     padding-left: 1%;
-    margin-top: -51%;
+    margin-top: -57%;
     margin-left: 35%;
     width: 20%;
 }
 .divCheckbox3{ 
     float: left;
-    padding-right: 1%;
+    padding-right: 6%;
     padding-left: 1%;
-    margin-top: -28%;
+    margin-top: -30%;
     margin-left: 3%;
     width: 22%;
 } 
@@ -159,7 +172,7 @@ nav a:hover{
     float: left;
     padding-right: 1%;
     padding-left: 1%;
-    margin-top: 25%;
+    margin-top: 30%;
     margin-left: -4%;
     width: 20%;
 }  
@@ -167,12 +180,11 @@ nav a:hover{
     float: right;
     padding-right: 1%;
     padding-left: -50%;
-    margin-top: -26%;
+    margin-top: -28%;
     margin-right:60%;
     width: 20%;    
 } 
-
- .divReglas{
+.divReglas{
     background: url('../img/cesped.jpg');
     border: 0.1em;
     margin-top: 3%;
@@ -202,7 +214,6 @@ nav a:hover{
     margin-left:-20%;
     margin-top: 2%;
 }
-
 .form-control{
     margin-left: 47%;
     width: 20%;    
@@ -215,105 +226,155 @@ nav a:hover{
     text-align: center;
 }
 .GroupA{
+    background: url('../img/canch.jpg');
     float: right;
     margin-right:25%;
-    margin-top:-47%;
+    margin-top:-62%;
     width: 15%;
     resize:none;
+    color: #F5F02E;
+    font-family:"Comic Sans MS";
+    font-size: 1.3em; 
 }
 .GroupB{
+    background: url('../img/canch.jpg');
+    float: right;
+    margin-right:5%;
+    margin-top:-62%;
+    width: 15%;
+    resize:none;
+    color: #F5F02E;
+    font-family:"Comic Sans MS";
+    font-size: 1.3em;
+}
+.GroupC{
+    background: url('../img/canch.jpg');
+    float: right;
+    margin-right:25%;
+    margin-top:-47%;
+    width: 15%;
+    resize:none;
+    color: #F5F02E;
+    font-family:"Comic Sans MS";
+    font-size: 1.3em;
+}
+.GroupD{
+    background: url('../img/canch.jpg');
     float: right;
     margin-right:5%;
     margin-top:-47%;
     width: 15%;
     resize:none;
-}
-.GroupC{
-    float: right;
-    margin-right:25%;
-    margin-top:-37%;
-    width: 15%;
-    resize:none;
-}
-.GroupD{
-    float: right;
-    margin-right:5%;
-    margin-top:-37%;
-    width: 15%;
-    resize:none;
+    color: #F5F02E;
+    font-family:"Comic Sans MS";
+    font-size: 1.3em;
 }
 .GroupE{
+    background: url('../img/canch.jpg');
     float: right;
     margin-right:25%;
-    margin-top:-27%;
+    margin-top:-32%;
     width: 15%;
-    resize:none    
+    resize:none  
+    color: #F5F02E;
+    font-family:"Comic Sans MS";
+    font-size: 1.3em;  
 }
 .GroupF{
+    background: url('../img/canch.jpg');
     float: right;
     margin-right:5%;
-    margin-top:-27%;
+    margin-top:-32%;
     width: 15%;
     resize:none;
+    color: #F5F02E;
+    font-family:"Comic Sans MS";
+    font-size: 1.3em;
 }
 .GroupG{
+    background: url('../img/canch.jpg');
     float: right;
     margin-right:25%;
     margin-top:-17%;
     width: 15%;
-    resize:none 
+    resize:none
+    color: #F5F02E;
+    font-family:"Comic Sans MS";
+    font-size: 1.3em; 
 }
 .GroupH{
+    background: url('../img/canch.jpg');
     float: right;
     margin-right:5%;
     margin-top:-17%;
     width: 15%;
     resize:none;
+    color: #F5F02E;
+    font-family:"Comic Sans MS";
+    font-size: 1.3em;
 }
 .lblGroupA{
+    color: #FF6B24;
+    font-size: 1.3em;
     float: right;
-    margin-right: 30%;
-    margin-top: -50%;
+    margin-right: 28%;
+    margin-top: -65%;
+
 }
 .lblGroupB{
+    color: #FF6B24;
+    font-size: 1.3em;
     float: right;
-    margin-right: 10%;
-    margin-top: -50%;
+    margin-right: 8%;
+    margin-top: -65%;
 }
 .lblGroupC{
+    color: #FF6B24;
+    font-size: 1.3em;
     float: right;
-    margin-right: 30%;
-    margin-top: -40%;
+    margin-right: 28%;
+    margin-top: -50%;
 }
 .lblGroupD{
+    color: #FF6B24;
+    font-size: 1.3em;
     float: right;
-    margin-right: 10%;
-    margin-top: -40%;
+    margin-right: 8%;
+    margin-top: -50%;
 }
 .lblGroupE{
+    color: #FF6B24;
+    font-size: 1.3em;
     float: right;
-    margin-right: 30%;
-    margin-top: -30%;
+    margin-right: 28%;
+    margin-top: -35%;
 }
 .lblGroupF{
+    color: #FF6B24;
+    font-size: 1.3em;
     float: right;
-    margin-right: 10%;
-    margin-top: -30%;
+    margin-right: 8%;
+    margin-top: -35%;
 }
 .lblGroupG{
+    color: #FF6B24;
+    font-size: 1.3em;
     float: right;
-    margin-right: 30%;
+    margin-right: 28%;
     margin-top: -20%;
 }
 .lblGroupH{
+    color: #FF6B24;
+    font-size: 1.3em;
     float: right;
-    margin-right: 10%;
+    margin-right: 8%;
     margin-top: -20%;
 }
 .lblName{
     margin-left: 35%;
-    margin-top: 2%;
-    position:absolute;    
+    margin-top: -2%;
+    position:absolute; 
+    font-size: 0.9em;   
 }
 .linav{
     display: inline-block;
@@ -329,9 +390,10 @@ nav a:hover{
     border-radius: 10%;
 }
 .name{
-    margin-top:5%;
-    margin-left: 20%;
-    font-size: 1em;
+    position: relative;
+    margin-top: -2%;
+    margin-left: 47%;
+    font-size: 1em;    
 }
 .nava{
     background: rgb(180,221,180); /* Old browsers */
@@ -407,7 +469,8 @@ nav a:hover{
 }
 .titleTeams{
     color: white;
-    font-size: 2em;    
+    font-size: 2em;
+    padding: 1.5em;    
 }
 .ulnav {
     list-style: none;
@@ -421,7 +484,6 @@ nav a:hover{
     margin-right: -65%;
     text-align: right;
 }
-
 .social img { 
     margin: 4px; 
     border: 5px solid #eee; 
