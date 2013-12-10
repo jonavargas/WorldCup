@@ -108,15 +108,16 @@ nav a:hover{
 .Continente{
    color: #F4E73E;
    font-family: cursive;
-  ;   
+   font-size: 1.8em; 
 }
 .btn{
     color: #0000A0;
     font-size: 1.5em;
 }
  .btnConfirm{
-    margin-left: 45%;
-    margin-top: 2%;
+    position: relative;
+    margin-left: 73%;
+    margin-top: -10%;
 }
 .btnCreate{
     background: #FFFF00;
@@ -127,48 +128,47 @@ nav a:hover{
     float: left;
     margin-top: 2%;
     padding-right: 1%;
-    padding-left: 4%;
-    
-    width: 22%;
-} 
-.divCheckbox1{ 
-    float: left;
-    padding-right: 1%;
-    padding-left: 1%;
-    margin-top: 2%;
-    margin-left:8%;
+    padding-left: 4%;    
     width: 20%;
 } 
-.divCheckbox2{ 
+.divCheckbox1{     
     float: left;
     padding-right: 1%;
     padding-left: 1%;
     margin-top: 2%;
-    margin-left: 5%;
+    margin-left:-1%;
+    width: 20%;
+} 
+.divCheckbox2{
+    float: left;
+    padding-right: 1%;
+    padding-left: 1%;
+    margin-top: -51%;
+    margin-left: 35%;
     width: 20%;
 }
 .divCheckbox3{ 
     float: left;
     padding-right: 1%;
     padding-left: 1%;
-    margin-top: -5%;
-    margin-left: 4%;
+    margin-top: -28%;
+    margin-left: 3%;
     width: 22%;
 } 
-.divCheckbox4{ 
+.divCheckbox4{
     float: left;
     padding-right: 1%;
     padding-left: 1%;
-    margin-top: -29%;
-    margin-left: 80%;
+    margin-top: 25%;
+    margin-left: -4%;
     width: 20%;
 }  
 .divCheckbox5{ 
     float: right;
     padding-right: 1%;
     padding-left: -50%;
-    margin-top: -5%;
-    margin-right: 50%;
+    margin-top: -26%;
+    margin-right:60%;
     width: 20%;    
 } 
 
@@ -194,7 +194,7 @@ nav a:hover{
     margin-left: 5%;
     text-align: center;
     height: 50%;
-    font-size: 1.8em;
+    font-size: 1.5em;
     text-align: justify;
 }
 .divTitle{
@@ -215,21 +215,100 @@ nav a:hover{
     text-align: center;
 }
 .GroupA{
-    display: inline-block;
-    margin-left:-14%;
-    margin-top:10%;
-    width: 20%;
+    float: right;
+    margin-right:25%;
+    margin-top:-47%;
+    width: 15%;
+    resize:none;
 }
 .GroupB{
-    display: inline-block;
-    margin-left:-14%;
-    margin-top:10%;
-    width: 20%;
+    float: right;
+    margin-right:5%;
+    margin-top:-47%;
+    width: 15%;
+    resize:none;
+}
+.GroupC{
+    float: right;
+    margin-right:25%;
+    margin-top:-37%;
+    width: 15%;
+    resize:none;
+}
+.GroupD{
+    float: right;
+    margin-right:5%;
+    margin-top:-37%;
+    width: 15%;
+    resize:none;
+}
+.GroupE{
+    float: right;
+    margin-right:25%;
+    margin-top:-27%;
+    width: 15%;
+    resize:none    
+}
+.GroupF{
+    float: right;
+    margin-right:5%;
+    margin-top:-27%;
+    width: 15%;
+    resize:none;
+}
+.GroupG{
+    float: right;
+    margin-right:25%;
+    margin-top:-17%;
+    width: 15%;
+    resize:none 
+}
+.GroupH{
+    float: right;
+    margin-right:5%;
+    margin-top:-17%;
+    width: 15%;
+    resize:none;
 }
 .lblGroupA{
-    display: inline-block;
-    margin-left: 8%;
-    margin-top: 8%;
+    float: right;
+    margin-right: 30%;
+    margin-top: -50%;
+}
+.lblGroupB{
+    float: right;
+    margin-right: 10%;
+    margin-top: -50%;
+}
+.lblGroupC{
+    float: right;
+    margin-right: 30%;
+    margin-top: -40%;
+}
+.lblGroupD{
+    float: right;
+    margin-right: 10%;
+    margin-top: -40%;
+}
+.lblGroupE{
+    float: right;
+    margin-right: 30%;
+    margin-top: -30%;
+}
+.lblGroupF{
+    float: right;
+    margin-right: 10%;
+    margin-top: -30%;
+}
+.lblGroupG{
+    float: right;
+    margin-right: 30%;
+    margin-top: -20%;
+}
+.lblGroupH{
+    float: right;
+    margin-right: 10%;
+    margin-top: -20%;
 }
 .lblName{
     margin-left: 35%;
