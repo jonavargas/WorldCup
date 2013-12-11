@@ -9,18 +9,7 @@
     display: block;
 }
 
-@font-face{
-    font-family: "Chalet";
-    src: url("../fonts/Chalet.eot");
-    src: url("../fonts/Chalet.eot?#iefix"),
-         url("../fonts/Chalet.woff") format("woff"),
-         url("../fonts/Chalet.ttf") format("truetype"),
-         url("../fonts/Chalet.svg#Chalet") format("svg");
-     font-weight: normal;
-     font-style: normal;
-}
-
-body{       
+body{      
     background: rgb(234,185,45); /* Old browsers */
     background: -moz-radial-gradient(center, ellipse cover, rgba(234,185,45,1) 0%, rgba(234,204,72,1) 56%,
     rgba(199,152,16,1) 100%); /* FF3.6+ */
@@ -52,7 +41,6 @@ body{
     background: -ms-linear-gradient(45deg,  #002400 3%,#005700 16%,#52b152 27%,#93c693 36%,#a8c4a8 45%,#a8c4a8 53%,#93c693 62%,#52b152 71%,#005700 81%,#002400 100%); /* IE10+ */
     background: linear-gradient(45deg,  #002400 3%,#005700 16%,#52b152 27%,#93c693 36%,#a8c4a8 45%,#a8c4a8 53%,#93c693 62%,#52b152 71%,#005700 81%,#002400 100%); /* W3C */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#002400', endColorstr='#002400',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
-
  }
 
  header h1, nav{
@@ -127,10 +115,19 @@ nav a:hover{
     width: 96%;
     margin-left: 2%;
     margin-top: 2%;
+    margin-bottom: 2%;    
 }
 .btn{
     color: #0000A0;
     font-size: 1.5em;
+    list-style: none;
+    text-decoration: none;
+}
+
+.btn :hover{ 
+    color: #008000;
+    list-style: none;
+    text-decoration: none;
 }
  .btnConfirm{
     position: relative;
@@ -142,6 +139,12 @@ nav a:hover{
     margin-left: 35%;
     box-shadow: 4px 4px 7px #349EED;
  }
+
+ .btnNew{
+    margin-top: 5%;
+    margin-bottom: 3%;
+ }
+
 .divCheckbox{ 
     float: left;
     margin-top: 2%;
@@ -149,7 +152,7 @@ nav a:hover{
     padding-left: 4%;    
     width: 21%;
 } 
-.divCheckbox1{     
+.divAmerica{     
     float: left;
     padding-right: 1%;
     padding-left: 1%;
@@ -157,35 +160,36 @@ nav a:hover{
     margin-left:-1%;
     width: 20%;
 } 
-.divCheckbox2{
+.divOceania{
     float: left;
+    position: relative;
     padding-right: 1%;
     padding-left: 1%;
-    margin-top: -57%;
+    margin-top: -61%;
     margin-left: 35%;
     width: 20%;
 }
-.divCheckbox3{ 
+.divEurope{ 
     float: left;
     padding-right: 6%;
     padding-left: 1%;
-    margin-top: -30%;
+    margin-top: -28%;
     margin-left: 3%;
     width: 22%;
 } 
-.divCheckbox4{
+.divAsia{
     float: left;
     padding-right: 1%;
     padding-left: 1%;
-    margin-top: 30%;
+    margin-top: 35%;
     margin-left: -4%;
     width: 20%;
 }  
-.divCheckbox5{ 
+.divEurope2{ 
     float: right;
     padding-right: 1%;
     padding-left: -50%;
-    margin-top: -28%;
+    margin-top: -26%;
     margin-right:60%;
     width: 20%;    
 } 
@@ -229,94 +233,6 @@ nav a:hover{
     width: 90%;
     color:white;
     text-align: center;
-}
-.GroupA{
-    background: url('../img/canch.jpg');
-    float: right;
-    margin-right:25%;
-    margin-top:-62%;
-    width: 15%;
-    resize:none;
-    color: #F5F02E;
-    font-family:"Comic Sans MS";
-    font-size: 1.3em; 
-}
-.GroupB{
-    background: url('../img/canch.jpg');
-    float: right;
-    margin-right:5%;
-    margin-top:-62%;
-    width: 15%;
-    resize:none;
-    color: #F5F02E;
-    font-family:"Comic Sans MS";
-    font-size: 1.3em;
-}
-.GroupC{
-    background: url('../img/canch.jpg');
-    float: right;
-    margin-right:25%;
-    margin-top:-47%;
-    width: 15%;
-    resize:none;
-    color: #F5F02E;
-    font-family:"Comic Sans MS";
-    font-size: 1.3em;
-}
-.GroupD{
-    background: url('../img/canch.jpg');
-    float: right;
-    margin-right:5%;
-    margin-top:-47%;
-    width: 15%;
-    resize:none;
-    color: #F5F02E;
-    font-family:"Comic Sans MS";
-    font-size: 1.3em;
-}
-.GroupE{
-    background: url('../img/canch.jpg');
-    float: right;
-    margin-right:25%;
-    margin-top:-32%;
-    width: 15%;
-    resize:none  
-    color: #F5F02E;
-    font-family:"Comic Sans MS";
-    font-size: 1.3em;  
-}
-.GroupF{
-    background: url('../img/canch.jpg');
-    float: right;
-    margin-right:5%;
-    margin-top:-32%;
-    width: 15%;
-    resize:none;
-    color: #F5F02E;
-    font-family:"Comic Sans MS";
-    font-size: 1.3em;
-}
-.GroupG{
-    background: url('../img/canch.jpg');
-    float: right;
-    margin-right:25%;
-    margin-top:-17%;
-    width: 15%;
-    resize:none
-    color: #F5F02E;
-    font-family:"Comic Sans MS";
-    font-size: 1.3em; 
-}
-.GroupH{
-    background: url('../img/canch.jpg');
-    float: right;
-    margin-right:5%;
-    margin-top:-17%;
-    width: 15%;
-    resize:none;
-    color: #F5F02E;
-    font-family:"Comic Sans MS";
-    font-size: 1.3em;
 }
 
 .info{
@@ -487,7 +403,7 @@ nav a:hover{
     list-style: none;
     text-decoration: none;
     float: left;
-    margin-left: 15%;
+    margin-left: 20%;
 }
 
 .soc{
@@ -501,7 +417,7 @@ nav a:hover{
 }
 .social{
     display: inline-block;
-    margin-top: -70%;
+    margin-top: -30%;
     margin-right: -20%;
     text-align: right;
 }
@@ -526,6 +442,104 @@ nav a:hover{
 .info{
     font-size: 12px;
 }
+
+#infoText{
+    margin-top: -2%;
+}
+
+#ga{
+    background: url('../img/canch.jpg');
+    float: right;
+    margin-right:25%;
+    margin-top:-62%;
+    width: 15%;
+    resize:none;
+    color: #F5F02E;
+    font-family:"Comic Sans MS";
+    font-size: 1.3em; 
+}
+#gb{
+    background: url('../img/canch.jpg');
+    float: right;
+    margin-right:5%;
+    margin-top:-62%;
+    width: 15%;
+    resize:none;
+    color: #F5F02E;
+    font-family:"Comic Sans MS";
+    font-size: 1.3em;
+}
+#gc{
+    background: url('../img/canch.jpg');
+    float: right;
+    margin-right:25%;
+    margin-top:-47%;
+    width: 15%;
+    resize:none;
+    color: #F5F02E;
+    font-family:"Comic Sans MS";
+    font-size: 1.3em;
+}
+#gd{
+    background: url('../img/canch.jpg');
+    float: right;
+    margin-right:5%;
+    margin-top:-47%;
+    width: 15%;
+    resize:none;
+    color: #F5F02E;
+    font-family:"Comic Sans MS";
+    font-size: 1.3em;
+}
+#ge{
+    background: url('../img/canch.jpg');
+    float: right;
+    margin-right:25%;
+    margin-top:-32%;
+    width: 15%;
+    resize:none;  
+    color: #F5F02E;
+    font-family:"Comic Sans MS";
+    font-size: 1.3em;  
+}
+#gf{
+    background: url('../img/canch.jpg');
+    float: right;
+    margin-right:5%;
+    margin-top:-32%;
+    width: 15%;
+    resize:none;
+    color: #F5F02E;
+    font-family:"Comic Sans MS";
+    font-size: 1.3em;
+}
+#gg{
+    background: url('../img/canch.jpg');
+    float: right;
+    margin-right:25%;
+    margin-top:-17%;
+    width: 15%;
+    resize:none;
+    color: #F5F02E;
+    font-family:"Comic Sans MS";
+    font-size: 1.3em; 
+}
+#gh{
+    background: url('../img/canch.jpg');
+    float: right;
+    margin-right:5%;
+    margin-top:-17%;
+    width: 15%;
+    resize:none;
+    color: #F5F02E;
+    font-family:"Comic Sans MS";
+    font-size: 1.3em;
+}
+
+
+
+
+
 
 @media(min-width: 1081px){
     header h1{
