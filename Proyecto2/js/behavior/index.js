@@ -7,6 +7,9 @@ $(document).ready(function () {
   var grupos = {};
   var categories = new Array();
   var temp;
+  var buttonSend = document.getElementById('send');
+  var buttonScores = document.getElementById('Scores');
+  buttonScores.disabled = true;
 
   //almacena los id de los equipos para deseleccionarlos en el siguiente grupo.
   var idx = new Array();
@@ -131,6 +134,8 @@ $(document).ready(function () {
            (radios[3].disabled == true) && (radios[4].disabled == true) && (radios[5].disabled == true) &&
            (radios[6].disabled == true) && (radios[7].disabled == true)){
           var unableAll = document.getElementsByName("team[]");
+          buttonSend.disabled = true;
+          buttonScores.disabled = false;
           for (i=0;i<unableAll.length;i++){ 
                 if(unableAll[i].type == "checkbox")  
                    unableAll[i].disabled = true;
