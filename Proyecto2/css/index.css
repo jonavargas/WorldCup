@@ -132,8 +132,22 @@ nav a:hover{
  .btnConfirm{
     position: relative;
     margin-left: -30%;
+    margin-top: 65%;
+}
+
+#send{
+    position: absolute;
+    margin-left: -26%;
+    margin-top: 25%;
+}
+
+ #btnScores{
+    position: absolute;
+    float: right;
+    margin-left: -60%;
     margin-top: 62%;
 }
+
 .btnCreate{
     background: #FFFF00;
     margin-left: 35%;
